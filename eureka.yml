@@ -1,6 +1,8 @@
 # in PROD, you will have at least 2 Eureka instances.
 # by default Eureka tries to register with Eureka
-
+spring:
+  application:
+    name: eureka
 # netflix-eureka/application.yml
 eureka:
   client:
